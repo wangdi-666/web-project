@@ -90,7 +90,7 @@
     <div class="news-body">
         <form action="jdbc/update" method="post">
             <select name="userid">
-                <option value="">请选择用户</option>
+                <option value="">请选择要修改的新闻标题</option>
                 <c:forEach items="${users }" var="u">
                     <option value="${u.id }">${u.name }</option>
                 </c:forEach>
